@@ -1,0 +1,180 @@
+:root{
+    --primary-color:#1D9AD6;
+    --primary-button-color:#2BB673;
+    --hero-section-background-color: linear-gradient(275deg, rgba(76, 112, 222, 0.1) -9.26%, rgba(28, 156, 210, 0.1) 47.33%, rgba(15, 170, 163, 0.1) 105.11%);
+    --background-secondary-color:#F3F4F8;
+    --background-primary-color:linear-gradient(0deg, rgba(0, 0, 0, 0.10) 0%, rgba(0, 0, 0, 0.10) 100%), linear-gradient(250deg, #27A5DB 0.13%, #2E5BA6 77.13%);
+    --font-primary-color:#0D0F11;
+    --color-white: #FFF;
+    --color-black:#000;
+    --color-red:#F4857A;
+    --dark-dark-900:#1A1A24;
+    --color-light-blue:#1998D5;
+    --color-border-light:#ffffff4d;
+    --color-drop-shadow:linear-gradient(0deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%), linear-gradient(250deg, rgba(39, 165, 219, 0.1) 0.13%, rgba(46, 91, 166, 0.1) 77.13%);
+    --color-marketing:#A93AA3;
+    --primary-navy-navy-80:#2E4797;
+    --color-date:#8E929B;
+}   
+
+
+.font-heading{
+    color: var(--font-primary-color);
+    text-align: center;
+    font-family: Roboto;
+    font-size: calc(64rem /16);
+    font-style: normal;
+    font-weight: 800;
+    line-height: calc(64rem /16);
+}
+.font-heading-secondary{
+    color: var(--font-primary-color);
+    text-align: center;
+    font-family: Roboto;
+    font-size: calc(28rem /16);
+    font-style: normal;
+    font-weight: 400;
+    line-height: calc(40rem /16);
+}
+.font-menu{
+    color: var(--font-primary-color);
+    font-family: Roboto;
+    font-size: calc(15rem /16);
+    font-style: normal;
+    font-weight: 400;
+    line-height: calc(30rem /16);
+    letter-spacing: calc(1rem / 16);
+    opacity: 0.8;
+}
+.font-btn-primary{
+    color: var(--color-white);
+    font-family: Roboto;
+    font-size: calc(16rem /16);
+    font-style: normal;
+    font-weight: 500;
+    line-height: calc(26rem /16);
+}
+.font-btn-secondary{
+    color: var(--primary-button-color);
+    font-family: Roboto;
+    font-size: calc(16rem /16);
+    font-style: normal;
+    font-weight: 500;
+    line-height: calc(26rem /16)x;
+}
+.font-uppercase{
+    text-transform: uppercase;
+}
+.font-title{
+    color: var(--color-black);
+    font-family: Roboto;
+    font-size: calc(40rem/16);
+    font-style: normal;
+    font-weight: 600;
+    line-height: calc(60rem /16)
+}
+.font-title-secondary {
+    color: var(--dark-dark-900);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: calc(40rem / 16);
+    font-style: normal;
+    font-weight: 600;
+    line-height: calc(39rem /16);
+}
+.font-link{
+    color: var(--primary-color);
+    font-family: Roboto;
+    font-size: calc(18rem / 16);
+    font-style: normal;
+    font-weight: 800;
+    line-height: calc(22rem /16);
+}
+.font-story-primary{
+    color: var(--color-white);
+    font-family: Roboto;
+    font-size: calc(24rem / 16);
+    font-style: normal;
+    font-weight: 400;
+    line-height: calc(34rem /16);
+}
+.font-companies-like-you{
+    color: var(--color-light-blue);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: calc(27rem / 16);
+    font-style: normal;
+    font-weight: 700;
+    line-height: calc(39rem /16);
+}
+.font-give-a-try-title{
+    color: var(--color-white);
+    font-family: Roboto;
+    font-size: calc(48rem /16);
+    font-style: normal;
+    font-weight: 500;
+    line-height: calc(64rem /16);
+}
+.font-give-a-try-primary{
+    color: var(--color-white);
+    font-family: Roboto;
+    font-size: calc(15rem / 16);
+    font-style: normal;
+    font-weight: 400;
+    line-height: calc(28rem /16);
+}
+.font-give-a-try-button{
+    color: var(--color-white);
+    text-align: center;
+    font-family: Roboto;
+    font-size: calc(24rem / 16);
+    font-style: normal;
+    font-weight: 500;
+    line-height: calc(32rem /16);
+}
+.font-sub-title{
+    color: var(--color-black);
+    font-family: Roboto;
+    font-size: calc(28rem /16);
+    font-style: normal;
+    font-weight: 700;
+    line-height: calc(37rem /16);
+}
+.font-author{
+    font-family: Roboto;
+    font-size: calc(18rem / 16);
+    font-style: normal;
+    font-weight: 800;
+    line-height: calc(22rem /16);
+}
+.font-date{
+    color:var(--color-date);
+    font-family: Roboto;
+    font-size: calc(18rem / 16);
+    font-style: normal;
+    font-weight: 800;
+    line-height: calc(22rem /16);
+}
+
+.font-story-primary-bold{
+    font-weight: 700;
+}
+.font-underline {
+    text-decoration: underline var(--color-red);
+    text-underline-offset: 4px;
+}
+.text-underline{
+    text-decoration: underline;
+}
+.text-underline-green{
+    text-decoration:underline var(--primary-button-color);
+}
+.btn-p-31{
+    padding-left: 31px;
+    padding-top: 11px;
+    padding-right: 31px;
+    padding-bottom: 11px;
+}
+.p-10{
+    padding: 10px;
+}
